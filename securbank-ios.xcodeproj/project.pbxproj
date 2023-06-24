@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012375B52A45D66800EB9042 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012375B42A45D66800EB9042 /* AccountDetailsView.swift */; };
+		012375B72A4689FF00EB9042 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012375B62A4689FF00EB9042 /* TransactionsView.swift */; };
+		012375B92A468A6800EB9042 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012375B82A468A6800EB9042 /* ExpensesView.swift */; };
+		01B8721A2A43D4E500F0D264 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 01B872192A43D4E500F0D264 /* README.md */; };
+		01BA3CAF2A4573B300EA94A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA3CAE2A4573B300EA94A1 /* HomeView.swift */; };
+		01BA3CB32A4575A700EA94A1 /* OfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA3CB22A4575A700EA94A1 /* OfferView.swift */; };
+		01BA3CC92A45902B00EA94A1 /* AdobeClean-It.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CBE2A45901200EA94A1 /* AdobeClean-It.ttf */; };
+		01BA3CCA2A45902B00EA94A1 /* AdobeClean-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CB52A45901100EA94A1 /* AdobeClean-Bold.ttf */; };
+		01BA3CCB2A45902B00EA94A1 /* AdobeClean-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC22A45901300EA94A1 /* AdobeClean-Regular.ttf */; };
+		01BA3CCC2A45902B00EA94A1 /* AdobeClean-SemiLightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC72A45901300EA94A1 /* AdobeClean-SemiLightIt.ttf */; };
+		01BA3CCD2A45902B00EA94A1 /* AdobeClean-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CBA2A45901200EA94A1 /* AdobeClean-ExtraBold.ttf */; };
+		01BA3CCE2A45902B00EA94A1 /* AdobeClean-BlackIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC82A45901300EA94A1 /* AdobeClean-BlackIt.ttf */; };
+		01BA3CCF2A45902B00EA94A1 /* AdobeClean-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CB62A45901200EA94A1 /* AdobeClean-Light.ttf */; };
+		01BA3CD02A45902B00EA94A1 /* AdobeClean-SemiLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC62A45901300EA94A1 /* AdobeClean-SemiLight.ttf */; };
+		01BA3CD12A45902B00EA94A1 /* AdobeClean-BoldCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CB82A45901200EA94A1 /* AdobeClean-BoldCond.ttf */; };
+		01BA3CD22A45902B00EA94A1 /* AdobeClean-ExtraBoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CBC2A45901200EA94A1 /* AdobeClean-ExtraBoldIt.ttf */; };
+		01BA3CD32A45902B00EA94A1 /* AdobeClean-BoldCondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CBF2A45901200EA94A1 /* AdobeClean-BoldCondIt.ttf */; };
+		01BA3CD42A45902B00EA94A1 /* AdobeClean-CondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CB72A45901200EA94A1 /* AdobeClean-CondIt.ttf */; };
+		01BA3CD52A45902B00EA94A1 /* AdobeClean-SemiCn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC32A45901300EA94A1 /* AdobeClean-SemiCn.ttf */; };
+		01BA3CD62A45902B00EA94A1 /* AdobeClean-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CBD2A45901200EA94A1 /* AdobeClean-BoldIt.ttf */; };
+		01BA3CD72A45902B00EA94A1 /* AdobeClean-BoldSemiCn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC12A45901200EA94A1 /* AdobeClean-BoldSemiCn.ttf */; };
+		01BA3CD82A45902B00EA94A1 /* AdobeClean-SemiCnIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC52A45901300EA94A1 /* AdobeClean-SemiCnIt.ttf */; };
+		01BA3CD92A45902B00EA94A1 /* AdobeClean-BoldSemiCnIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC02A45901200EA94A1 /* AdobeClean-BoldSemiCnIt.ttf */; };
+		01BA3CDA2A45902B00EA94A1 /* AdobeClean-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CBB2A45901200EA94A1 /* AdobeClean-LightIt.ttf */; };
+		01BA3CDB2A45902B00EA94A1 /* AdobeClean-Cond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CB92A45901200EA94A1 /* AdobeClean-Cond.ttf */; };
+		01BA3CDC2A45902B00EA94A1 /* AdobeClean-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01BA3CC42A45901300EA94A1 /* AdobeClean-Black.ttf */; };
 		01D2E3E62A19D2190020D7F7 /* securbank_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2E3E52A19D2190020D7F7 /* securbank_iosApp.swift */; };
 		01D2E3E82A19D2190020D7F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2E3E72A19D2190020D7F7 /* ContentView.swift */; };
 		01D2E3EA2A19D21A0020D7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D2E3E92A19D21A0020D7F7 /* Assets.xcassets */; };
@@ -14,6 +40,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012375B42A45D66800EB9042 /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
+		012375B62A4689FF00EB9042 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		012375B82A468A6800EB9042 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		01B872192A43D4E500F0D264 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		01BA3CAE2A4573B300EA94A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		01BA3CB22A4575A700EA94A1 /* OfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferView.swift; sourceTree = "<group>"; };
+		01BA3CB52A45901100EA94A1 /* AdobeClean-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-Bold.ttf"; sourceTree = "<group>"; };
+		01BA3CB62A45901200EA94A1 /* AdobeClean-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-Light.ttf"; sourceTree = "<group>"; };
+		01BA3CB72A45901200EA94A1 /* AdobeClean-CondIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-CondIt.ttf"; sourceTree = "<group>"; };
+		01BA3CB82A45901200EA94A1 /* AdobeClean-BoldCond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-BoldCond.ttf"; sourceTree = "<group>"; };
+		01BA3CB92A45901200EA94A1 /* AdobeClean-Cond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-Cond.ttf"; sourceTree = "<group>"; };
+		01BA3CBA2A45901200EA94A1 /* AdobeClean-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-ExtraBold.ttf"; sourceTree = "<group>"; };
+		01BA3CBB2A45901200EA94A1 /* AdobeClean-LightIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-LightIt.ttf"; sourceTree = "<group>"; };
+		01BA3CBC2A45901200EA94A1 /* AdobeClean-ExtraBoldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-ExtraBoldIt.ttf"; sourceTree = "<group>"; };
+		01BA3CBD2A45901200EA94A1 /* AdobeClean-BoldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-BoldIt.ttf"; sourceTree = "<group>"; };
+		01BA3CBE2A45901200EA94A1 /* AdobeClean-It.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-It.ttf"; sourceTree = "<group>"; };
+		01BA3CBF2A45901200EA94A1 /* AdobeClean-BoldCondIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-BoldCondIt.ttf"; sourceTree = "<group>"; };
+		01BA3CC02A45901200EA94A1 /* AdobeClean-BoldSemiCnIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-BoldSemiCnIt.ttf"; sourceTree = "<group>"; };
+		01BA3CC12A45901200EA94A1 /* AdobeClean-BoldSemiCn.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-BoldSemiCn.ttf"; sourceTree = "<group>"; };
+		01BA3CC22A45901300EA94A1 /* AdobeClean-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-Regular.ttf"; sourceTree = "<group>"; };
+		01BA3CC32A45901300EA94A1 /* AdobeClean-SemiCn.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-SemiCn.ttf"; sourceTree = "<group>"; };
+		01BA3CC42A45901300EA94A1 /* AdobeClean-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-Black.ttf"; sourceTree = "<group>"; };
+		01BA3CC52A45901300EA94A1 /* AdobeClean-SemiCnIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-SemiCnIt.ttf"; sourceTree = "<group>"; };
+		01BA3CC62A45901300EA94A1 /* AdobeClean-SemiLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-SemiLight.ttf"; sourceTree = "<group>"; };
+		01BA3CC72A45901300EA94A1 /* AdobeClean-SemiLightIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-SemiLightIt.ttf"; sourceTree = "<group>"; };
+		01BA3CC82A45901300EA94A1 /* AdobeClean-BlackIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeClean-BlackIt.ttf"; sourceTree = "<group>"; };
+		01BA3CDD2A45C3DF00EA94A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		01D2E3E22A19D2190020D7F7 /* securbank-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "securbank-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D2E3E52A19D2190020D7F7 /* securbank_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = securbank_iosApp.swift; sourceTree = "<group>"; };
 		01D2E3E72A19D2190020D7F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +85,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01BA3CB42A458CC600EA94A1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				01BA3CC42A45901300EA94A1 /* AdobeClean-Black.ttf */,
+				01BA3CC82A45901300EA94A1 /* AdobeClean-BlackIt.ttf */,
+				01BA3CB52A45901100EA94A1 /* AdobeClean-Bold.ttf */,
+				01BA3CB82A45901200EA94A1 /* AdobeClean-BoldCond.ttf */,
+				01BA3CBF2A45901200EA94A1 /* AdobeClean-BoldCondIt.ttf */,
+				01BA3CBD2A45901200EA94A1 /* AdobeClean-BoldIt.ttf */,
+				01BA3CC12A45901200EA94A1 /* AdobeClean-BoldSemiCn.ttf */,
+				01BA3CC02A45901200EA94A1 /* AdobeClean-BoldSemiCnIt.ttf */,
+				01BA3CB92A45901200EA94A1 /* AdobeClean-Cond.ttf */,
+				01BA3CB72A45901200EA94A1 /* AdobeClean-CondIt.ttf */,
+				01BA3CBA2A45901200EA94A1 /* AdobeClean-ExtraBold.ttf */,
+				01BA3CBC2A45901200EA94A1 /* AdobeClean-ExtraBoldIt.ttf */,
+				01BA3CBE2A45901200EA94A1 /* AdobeClean-It.ttf */,
+				01BA3CB62A45901200EA94A1 /* AdobeClean-Light.ttf */,
+				01BA3CBB2A45901200EA94A1 /* AdobeClean-LightIt.ttf */,
+				01BA3CC22A45901300EA94A1 /* AdobeClean-Regular.ttf */,
+				01BA3CC32A45901300EA94A1 /* AdobeClean-SemiCn.ttf */,
+				01BA3CC52A45901300EA94A1 /* AdobeClean-SemiCnIt.ttf */,
+				01BA3CC62A45901300EA94A1 /* AdobeClean-SemiLight.ttf */,
+				01BA3CC72A45901300EA94A1 /* AdobeClean-SemiLightIt.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		01D2E3D92A19D2190020D7F7 = {
 			isa = PBXGroup;
 			children = (
+				01B872192A43D4E500F0D264 /* README.md */,
 				01D2E3E42A19D2190020D7F7 /* securbank-ios */,
 				01D2E3E32A19D2190020D7F7 /* Products */,
 			);
@@ -51,8 +132,15 @@
 		01D2E3E42A19D2190020D7F7 /* securbank-ios */ = {
 			isa = PBXGroup;
 			children = (
+				01BA3CDD2A45C3DF00EA94A1 /* Info.plist */,
+				01BA3CB42A458CC600EA94A1 /* fonts */,
 				01D2E3E52A19D2190020D7F7 /* securbank_iosApp.swift */,
 				01D2E3E72A19D2190020D7F7 /* ContentView.swift */,
+				01BA3CAE2A4573B300EA94A1 /* HomeView.swift */,
+				01BA3CB22A4575A700EA94A1 /* OfferView.swift */,
+				012375B42A45D66800EB9042 /* AccountDetailsView.swift */,
+				012375B62A4689FF00EB9042 /* TransactionsView.swift */,
+				012375B82A468A6800EB9042 /* ExpensesView.swift */,
 				01D2E3E92A19D21A0020D7F7 /* Assets.xcassets */,
 				01D2E3EB2A19D21A0020D7F7 /* Preview Content */,
 			);
@@ -125,8 +213,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B8721A2A43D4E500F0D264 /* README.md in Resources */,
+				01BA3CD82A45902B00EA94A1 /* AdobeClean-SemiCnIt.ttf in Resources */,
+				01BA3CC92A45902B00EA94A1 /* AdobeClean-It.ttf in Resources */,
 				01D2E3ED2A19D21A0020D7F7 /* Preview Assets.xcassets in Resources */,
+				01BA3CD22A45902B00EA94A1 /* AdobeClean-ExtraBoldIt.ttf in Resources */,
 				01D2E3EA2A19D21A0020D7F7 /* Assets.xcassets in Resources */,
+				01BA3CCD2A45902B00EA94A1 /* AdobeClean-ExtraBold.ttf in Resources */,
+				01BA3CCC2A45902B00EA94A1 /* AdobeClean-SemiLightIt.ttf in Resources */,
+				01BA3CDA2A45902B00EA94A1 /* AdobeClean-LightIt.ttf in Resources */,
+				01BA3CCA2A45902B00EA94A1 /* AdobeClean-Bold.ttf in Resources */,
+				01BA3CD32A45902B00EA94A1 /* AdobeClean-BoldCondIt.ttf in Resources */,
+				01BA3CD02A45902B00EA94A1 /* AdobeClean-SemiLight.ttf in Resources */,
+				01BA3CDB2A45902B00EA94A1 /* AdobeClean-Cond.ttf in Resources */,
+				01BA3CCB2A45902B00EA94A1 /* AdobeClean-Regular.ttf in Resources */,
+				01BA3CDC2A45902B00EA94A1 /* AdobeClean-Black.ttf in Resources */,
+				01BA3CD52A45902B00EA94A1 /* AdobeClean-SemiCn.ttf in Resources */,
+				01BA3CD72A45902B00EA94A1 /* AdobeClean-BoldSemiCn.ttf in Resources */,
+				01BA3CD42A45902B00EA94A1 /* AdobeClean-CondIt.ttf in Resources */,
+				01BA3CD92A45902B00EA94A1 /* AdobeClean-BoldSemiCnIt.ttf in Resources */,
+				01BA3CD62A45902B00EA94A1 /* AdobeClean-BoldIt.ttf in Resources */,
+				01BA3CCE2A45902B00EA94A1 /* AdobeClean-BlackIt.ttf in Resources */,
+				01BA3CCF2A45902B00EA94A1 /* AdobeClean-Light.ttf in Resources */,
+				01BA3CD12A45902B00EA94A1 /* AdobeClean-BoldCond.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BA3CAF2A4573B300EA94A1 /* HomeView.swift in Sources */,
 				01D2E3E82A19D2190020D7F7 /* ContentView.swift in Sources */,
 				01D2E3E62A19D2190020D7F7 /* securbank_iosApp.swift in Sources */,
+				012375B92A468A6800EB9042 /* ExpensesView.swift in Sources */,
+				012375B52A45D66800EB9042 /* AccountDetailsView.swift in Sources */,
+				01BA3CB32A4575A700EA94A1 /* OfferView.swift in Sources */,
+				012375B72A4689FF00EB9042 /* TransactionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +384,7 @@
 				DEVELOPMENT_TEAM = 438B6V379G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "securbank-ios/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SecurBank;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +415,7 @@
 				DEVELOPMENT_TEAM = 438B6V379G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "securbank-ios/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SecurBank;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
