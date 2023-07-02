@@ -9,9 +9,11 @@ import SwiftUI
 
 struct TransactionsView: View {
     var body: some View {
-        Text("There are no transactions")
-            .font(.custom("AdobeClean-Regular", size: 16))
-            .multilineTextAlignment(.leading)
+        VStack {
+            TransactionView(name: "Farmer's Shop", icon: "shop_icon", date: "26/06/2023", amount: "$345")
+            TransactionView(name: "Mobile Bill", icon: "finance_icon", date: "26/06/2023", amount: "$95")
+            TransactionView(name: "Internet Bill", icon: "finance_icon", date: "26/06/2023", amount: "$220.40")
+        }
     }
 }
 

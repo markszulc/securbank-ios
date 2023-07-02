@@ -31,10 +31,9 @@ struct OfferView: View {
                         
                     }
                 }
-                .padding(.leading, 10)
+                .padding(.leading, 20)
             }
         }
-
     }
 }
 
@@ -48,13 +47,6 @@ public class AEM_offerFetcher: ObservableObject {
     @Published var offerlistheadless = [Offer.Data.OfferList.Items]()
     
     init(){
-        for familyName in UIFont.familyNames {
-            print(familyName)
-            
-            for fontName in UIFont.fontNames(forFamilyName: familyName) {
-                print("--" + fontName)
-            }
-        }
         load()
     }
     
