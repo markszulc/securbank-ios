@@ -13,6 +13,8 @@ struct OfferView: View {
     
     var body: some View {
         
+
+        
         VStack(alignment: .leading, spacing: 0) {
             
 
@@ -109,7 +111,8 @@ public class AEM_offerFetcher: ObservableObject {
         let semaphore = DispatchSemaphore (value: 0)
         let cachebustfordemos = Double.random(in: 1...100)
         print("calling AEM" + cachebustfordemos.description)
-        let url = URL(string: "https://publish-p55117-e571178.adobeaemcloud.com/graphql/execute.json/securbank/OfferList;locale=en?chk=" + cachebustfordemos.description)!
+        @State var aemurl: String = UserDefaults.standard.string(forKey: "AEM_URL_KEY") ?? "https://publish-p55117-e571178.adobeaemcloud.com"
+        let url = URL(string: aemurl + "/graphql/execute.json/securbank/OfferList;locale=en?chk=" + cachebustfordemos.description)!
         let request = URLRequest(url: url)
                 
 
