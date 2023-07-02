@@ -14,26 +14,81 @@ struct OfferView: View {
     var body: some View {
         
         VStack(alignment: .leading, spacing: 0) {
+            
 
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack (alignment: .top, spacing: 20) {
-                    ForEach(fetcher.offerlistheadless, id: \.headline) { offer in
-                        
-                        VStack (alignment: .leading, spacing: 5) {
-                            Text(offer.headline)
-                                .padding(10)
-                                .font(.custom("AdobeClean-Regular", size: 18))
-                                .foregroundColor(Color("sb_white"))
-                                
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack (alignment: .top, spacing: 20) {
+                        ForEach(fetcher.offerlistheadless, id: \.headline) { offer in
+                            
+                            NavigationLink(value: offer) {
+                                VStack (alignment: .leading, spacing: 5) {
+                                    Text(offer.headline)
+                                        .padding(10)
+                                        .font(.custom("AdobeClean-Regular", size: 18))
+                                        .foregroundColor(Color("sb_white"))
+                                    
+                                }
+                                .frame(width: 150, height: 150)
+                                .background(Color("sb_highlight"))
+                            }
+                            .navigationDestination(for: Offer.Data.OfferList.Items.self) {offer in
+                                ZStack {
+                                    VStack {
+                                        
+                                        let url = URL(string: (offer.heroImage?._publishUrl ?? "") + "/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg")!
+
+                                        AsyncImage(url: url) { image in
+                                            image
+                                                .resizable()
+                                                .scaledToFit()
+                                        } placeholder: {
+                                            ProgressView()
+                                        }
+                                            .frame(height: 300)
+                                            
+                            
+                                        Text(offer.headline)
+                                            .font(.custom("AdobeClean-Regular", size: 30))
+
+                                        
+                                        Text(offer.pretitle)
+                                            .font(.custom("AdobeClean-Black", size: 30))
+                                        
+                                        let detail = offer.detail.plaintext ?? ""
+                                        
+                                        Text(detail)
+                                            .font(.custom("AdobeClean-Regular", size: 18))
+                                        
+                                        Button(action: {print("Offer")}) {
+                                              Text("Find out more")
+                                                  .frame(minWidth: 0, maxWidth: 156)
+                                                  .font(.custom("AdobeClean-ExtraBold", size: 16))
+                                                  .padding(10)
+                                                  .foregroundColor(.white)
+                                                  .overlay(
+                                                      RoundedRectangle(cornerRadius: 25)
+                                                          .stroke(Color("sb_highlight"), lineWidth: 2)
+                                              )
+                                          }
+                                          .background(Color("sb_highlight"))
+                                          .cornerRadius(25)
+                                          .padding(.top, 10.0)
+                                          .padding(.leading, 20.0)
+                                          
+                                        Spacer()
+
+                                    }
+                                }
+                            }
                         }
-                        .frame(width: 150, height: 150)
-                        .background(Color("sb_highlight"))
-                        
                     }
+                    .padding(.leading, 20)
                 }
-                .padding(.leading, 20)
-            }
+                
+            
         }
+        
     }
 }
 
@@ -96,8 +151,17 @@ public class AEM_offerFetcher: ObservableObject {
 struct Offer: Codable {
     struct Data : Codable {
         struct OfferList : Codable {
-                struct Items : Codable {
+                struct Items : Hashable, Codable {
                     let headline:String
+                    let pretitle:String
+                    struct HeroImage : Hashable,Codable {
+                        let _publishUrl: String
+                    }
+                    struct Detail : Hashable,Codable {
+                        let plaintext: String?
+                    }
+                    let heroImage:HeroImage?
+                    let detail:Detail
                 }
             let items:[Items]
         }

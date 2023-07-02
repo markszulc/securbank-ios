@@ -10,8 +10,8 @@ import SwiftUI
 struct ExpensesView: View {
     var body: some View {
         Image("stats")
-            .resizable(resizingMode: .stretch)
-            .frame(width: 375.0, height: 165.0)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
         
     }
 }

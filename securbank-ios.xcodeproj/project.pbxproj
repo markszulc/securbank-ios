@@ -38,6 +38,11 @@
 		01D2E3EA2A19D21A0020D7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D2E3E92A19D21A0020D7F7 /* Assets.xcassets */; };
 		01D2E3ED2A19D21A0020D7F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D2E3EC2A19D21A0020D7F7 /* Preview Assets.xcassets */; };
 		01F5B7FC2A5170F80080CBEE /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5B7FB2A5170F80080CBEE /* TransactionView.swift */; };
+		01F5B7FE2A517CF70080CBEE /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5B7FD2A517CF70080CBEE /* CustomTabBar.swift */; };
+		01F5B8002A5186FB0080CBEE /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5B7FF2A5186FB0080CBEE /* OfferDetailView.swift */; };
+		01F5B8022A518B260080CBEE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5B8012A518B260080CBEE /* MainView.swift */; };
+		01F5B8062A5191B80080CBEE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5B8052A5191B80080CBEE /* SettingsView.swift */; };
+		01F5B8082A5191DB0080CBEE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5B8072A5191DB0080CBEE /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +79,11 @@
 		01D2E3E92A19D21A0020D7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D2E3EC2A19D21A0020D7F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01F5B7FB2A5170F80080CBEE /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		01F5B7FD2A517CF70080CBEE /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		01F5B7FF2A5186FB0080CBEE /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
+		01F5B8012A518B260080CBEE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		01F5B8052A5191B80080CBEE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		01F5B8072A5191DB0080CBEE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,7 @@
 				01BA3CDD2A45C3DF00EA94A1 /* Info.plist */,
 				01BA3CB42A458CC600EA94A1 /* fonts */,
 				01D2E3E52A19D2190020D7F7 /* securbank_iosApp.swift */,
+				01F5B8012A518B260080CBEE /* MainView.swift */,
 				01D2E3E72A19D2190020D7F7 /* ContentView.swift */,
 				01BA3CAE2A4573B300EA94A1 /* HomeView.swift */,
 				01BA3CB22A4575A700EA94A1 /* OfferView.swift */,
@@ -144,6 +155,10 @@
 				012375B62A4689FF00EB9042 /* TransactionsView.swift */,
 				01F5B7FB2A5170F80080CBEE /* TransactionView.swift */,
 				012375B82A468A6800EB9042 /* ExpensesView.swift */,
+				01F5B7FD2A517CF70080CBEE /* CustomTabBar.swift */,
+				01F5B7FF2A5186FB0080CBEE /* OfferDetailView.swift */,
+				01F5B8052A5191B80080CBEE /* SettingsView.swift */,
+				01F5B8072A5191DB0080CBEE /* ProfileView.swift */,
 				01D2E3E92A19D21A0020D7F7 /* Assets.xcassets */,
 				01D2E3EB2A19D21A0020D7F7 /* Preview Content */,
 			);
@@ -250,11 +265,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BA3CAF2A4573B300EA94A1 /* HomeView.swift in Sources */,
+				01F5B8082A5191DB0080CBEE /* ProfileView.swift in Sources */,
 				01F5B7FC2A5170F80080CBEE /* TransactionView.swift in Sources */,
 				01D2E3E82A19D2190020D7F7 /* ContentView.swift in Sources */,
 				01D2E3E62A19D2190020D7F7 /* securbank_iosApp.swift in Sources */,
+				01F5B8002A5186FB0080CBEE /* OfferDetailView.swift in Sources */,
+				01F5B7FE2A517CF70080CBEE /* CustomTabBar.swift in Sources */,
 				012375B92A468A6800EB9042 /* ExpensesView.swift in Sources */,
+				01F5B8022A518B260080CBEE /* MainView.swift in Sources */,
 				012375B52A45D66800EB9042 /* AccountDetailsView.swift in Sources */,
+				01F5B8062A5191B80080CBEE /* SettingsView.swift in Sources */,
 				01BA3CB32A4575A700EA94A1 /* OfferView.swift in Sources */,
 				012375B72A4689FF00EB9042 /* TransactionsView.swift in Sources */,
 			);
