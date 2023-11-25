@@ -80,6 +80,10 @@ struct MainView: View {
                 }
             }
             .refreshable {
+                username = UserDefaults.standard.string(forKey: "NAME_KEY") ?? ""
+                print("Refreshed Home Screen")
+                print("Refreshed Offers")
+
                 //  await viewModel.refresh()
                 
             }

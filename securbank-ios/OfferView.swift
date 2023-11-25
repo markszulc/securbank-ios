@@ -11,6 +11,12 @@ struct OfferView: View {
     
     @ObservedObject var fetcher = AEM_offerFetcher()
     
+    public func reload() {
+        print("reloading offers")
+    }
+
+    
+    
     var body: some View {
         
 
@@ -100,6 +106,7 @@ struct OfferView_Previews: PreviewProvider {
     }
 }
 
+
 public class AEM_offerFetcher: ObservableObject {
     @Published var offerlistheadless = [Offer.Data.OfferList.Items]()
     
@@ -129,7 +136,7 @@ public class AEM_offerFetcher: ObservableObject {
         do {
            let offerJSON = try JSONDecoder().decode(Offer.self, from: data)
            let offerCount = offerJSON.data.offerList.items.count
-                       print(offerCount)
+            print("Offers Found: ", offerCount)
                       
                        DispatchQueue.main.async {
                            self.offerlistheadless = offerJSON.data.offerList.items
